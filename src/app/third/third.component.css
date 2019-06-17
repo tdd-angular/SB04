@@ -1,0 +1,16 @@
+div {
+    border-color: green;
+}
+
+:host div {
+    padding: 50px;
+}
+
+:host(.big) div {
+    height: 200px;
+}
+
+:host-context(.theme-dark) div {
+    background-color: black;
+    color: white; 
+}

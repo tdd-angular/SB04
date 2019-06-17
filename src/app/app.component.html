@@ -1,0 +1,12 @@
+<ng-template #tpl>
+  <app-first></app-first>
+</ng-template>
+
+<div class="theme-dark">
+  App Component
+  <ng-container #vc></ng-container>
+
+  <app-third class="big" [view]="oldView"></app-third>
+  <button (click)="open()">open</button>
+  <button (click)="close()">close</button>
+</div>
